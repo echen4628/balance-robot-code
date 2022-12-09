@@ -1,3 +1,9 @@
+/////////////////////////////////////////////
+// motor_controller_tb
+// module test the motor controller module by requesting example PWM waves
+// Added by Tanvika Dasari
+// tdasari@hmc.edu
+//////////////////////////////////////////////////////////////////////////////////////////
 module motor_controller_tb();
 	logic motor1_sign;
 	logic[6:0] motor1_upperlimit;
@@ -25,7 +31,6 @@ module motor_controller_tb();
 		motor2_upperlimit <= 7'd100;
 	 end
 	 
-	 // please as load
 	 initial begin
 		  
 		  #10 
